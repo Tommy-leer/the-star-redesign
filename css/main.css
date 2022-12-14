@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat;
+}
+
+/*----the-site-------------------------------------------------*/
+#news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.news-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.news-heading span {
+  color: red;
+}
+
+.news-heading h3 {
+  font-size: 2.4rem;
+  color: black;
+  font-weight: 600;
+}
+
+.news-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.news-box {
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.97);
+  border: rgb(255, 255, 255);
+  border: 1px solid rgb(232, 230, 230);
+  margin: 20px;
+}
+
+.news-img {
+  width: 100%;
+  height: auto;
+}
+
+.news-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.news-text {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-text span {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.news-text .news-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: black;
+}
+
+.news-text .news-title:hover {
+  color: red;
+  transition: all ease 0.3s;
+}
+
+.news-text p {
+  color: #9b9b9b;
+  font-size: 0.9rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px 0px;
+}
+
+.news-text a {
+  color: black;
+}
+
+.news-text a:hover {
+  color: red;
+  transition: all ease 0.3s;
+}
+
+@media(max-width:1550px){
+  .news-box{
+    width: 300px;
+  }
+}
