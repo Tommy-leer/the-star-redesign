@@ -31,7 +31,7 @@ body {
 
 .news-heading {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
@@ -120,4 +120,9 @@ body {
   .news-box{
     width: 300px;
   }
+}
+
+footer {
+  background: black;
+  padding: 10px 20px;
 }
